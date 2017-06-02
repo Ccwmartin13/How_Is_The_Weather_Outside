@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="How Is The Weather Outside.exe" version="1.0.0.3" publicKeyToken="1d914201d7c1a827" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Weather.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="How Is The Weather Outside" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="How Is The Weather Outside.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="How Is The Weather Outside.exe" size="331232">
+      <assemblyIdentity name="How Is The Weather Outside" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>66Afq/olJkUoj7ZldJ5Jh3XPbyV+kcnQ1d+tU8Fm9Co=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="How Is The Weather Outside.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="moon.png" size="39062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gYFTQRzWsycpUM/Huc3P5bTV8XQZ8gcmcF21zU+hcsQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="rain.png" size="98106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZOD5EU+PsQyk7HcG0rPbBaolX32KpH9QamRqFS4iWjk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sunandrain.png" size="67185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aOgXrbydL5mZ8RG/kfO97j+5OsCcsh1uqHx/kmBDHmc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sun-PNG-Transparent-Image.png" size="26149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BGHhu+7mqWzjKaoSVJZbT8JXrqcc1exP4lqs4q7ulAY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Weather.ico" size="158130">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Csx5hFnaEbrUU6BmTfWVmRIeaZtUbB7BcT9A83bqO/k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CHASE-M3-LT-100\cmart" issuerKeyHash="3816164b0e838e8dbefd7e650759a6b99c5663c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EoEByKPdiE3ZoEVEAoA20++vzund6OCOntc4kIfgtN8=</DigestValue></Reference></SignedInfo><SignatureValue>IHDFhUb6pAVDk1YdOFBNnxsqCfySM4pBbGXgjeJY3pUDeD5w52sY0A5ZUzjyIUvOL2o5yKiGwpCrX6juY96zvxNestgp/XpA+nTSnIl4uwfhcH58m4L28aXbAhu0myOYKTisB2UiPOu0lXswk8jPvM6Nd5pPvLSMMJo2R5JZQbY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQDbkw3xaiwvdeiVThQ6F9Mc4nG5oGrTDE/CfwD4zI4y84s/9cteYCvs6Pgjtw/jzcqQwzfB04J0ZHpQYoWwbzHzugyN2SPe14Oug2OXikuzkf6ZvCaChAWZ4YZnv/83IM7Ko4x807tGbzynlmq4r1lx2peHR2fn2dkvUdMfx7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dfb4e0879038d79e8ee0e8dde9ceafefd33680024445a0d94d88dda3c8018112" Description="" Url=""><as:assemblyIdentity name="How Is The Weather Outside.exe" version="1.0.0.3" publicKeyToken="1d914201d7c1a827" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CHASE-M3-LT-100\cmart</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aahhdY10h2xTzgKBcHD3IUhbxNxWSlI9SGq6+HeKurU=</DigestValue></Reference></SignedInfo><SignatureValue>WqyA+FYDoe/Rl8K/fcPUw/8ayUjfSY5Obp/9A06eUAYUZb6UD63CcbD/u6ELlCLvuntQfOhKLXG6dE9KiVhgm7cQE/jA9+f4Gi37rMYZEmI6RD7gERp0vvgalWR4MtBMUdM/f3z+fZyVV67FZVzizt8IBoEnMCY5Ul/lS6Py6ow=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQDbkw3xaiwvdeiVThQ6F9Mc4nG5oGrTDE/CfwD4zI4y84s/9cteYCvs6Pgjtw/jzcqQwzfB04J0ZHpQYoWwbzHzugyN2SPe14Oug2OXikuzkf6ZvCaChAWZ4YZnv/83IM7Ko4x807tGbzynlmq4r1lx2peHR2fn2dkvUdMfx7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTYu7P3f1W5BDc2fC5vj3kjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAQwBIAEEAUwBFAC0ATQAzAC0ATABUAC0AMQAwADAAXABjAG0AYQByAHQwHhcNMTcwNjAyMTQxMTExWhcNMTgwNjAyMjAxMTExWjA1MTMwMQYDVQQDHioAQwBIAEEAUwBFAC0ATQAzAC0ATABUAC0AMQAwADAAXABjAG0AYQByAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEA25MN8WosL3XolU4UOhfTHOJxuaBq0wxPwn8A+MyOMvOLP/XLXmAr7Oj4I7cP483KkMM3wdOCdGR6UGKFsG8x87oMjdkj3teDroNjl4pLs5H+mbwmgoQFmeGGZ7//NyDOyqOMfNO7Rm88p5ZquK9ZcdqXh0dn59nZL1HTH8e1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAeCHGfX5h0IF9HdOx1pgK7tG4mzWG/tNmyDNUNtHavhZxdJJjGDeQMVmhwU5mgDyAq84kNC2z0NdPR0LtidpJxHKFzEze3gyARCyKpJ2/f4hlCQVcIUgLLvX512XJcmlTQHCHxL6NqAcDJLl2+8VTZLH77eKofsgyB9CPH0MhbRk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
